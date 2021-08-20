@@ -1,0 +1,143 @@
+@media (min-width: 0px) and (max-width:350px) 
+{
+    .nav {
+        display: inline-block;
+        padding:10px;
+        margin-bottom:10px;
+    } 
+    .grid{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 200px;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap:5px ;
+        grid-column-gap:5px ;
+        }
+    .imgPro{
+        width: 200px;
+        height: 200px;
+        border-radius: 30%;
+    }
+    h1{
+        font-family: 'Cairo', sans-serif;font-size:20px;text-align: center;line-height:80%;letter-spacing: 2px;padding:15px;
+    }
+    p{
+        color: chocolate;font-family: 'Fredoka One', cursive;font-size: 20px;text-align:justify center;line-height: 20px;letter-spacing: 2px;margin: 10px; word-spacing:2px;
+    }
+    .copyR{
+        color: white;
+        font-family:'Franklin Gothic Medium';
+        font-size: 12px;
+        text-align: center;
+    }
+    .nombreProductos{
+        font-size: 20px;
+        line-height:30px;
+    }
+}
+@media (min-width: 351px) and (max-width:516px)
+{
+    .nav {
+        display: inline-block;
+        padding:10px;
+        margin-bottom:10px;
+    } 
+    .grid{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap:15px ;
+        grid-column-gap:15px ;
+        }
+    .imgPro{
+        width: 250px;
+        height: 250px;
+        border-radius: 30%;
+    }
+    h1{
+        font-family: 'Cairo', sans-serif;font-size:20px;text-align: center;line-height:80%;letter-spacing: 2px;padding:15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        color: chocolate;font-family: 'Fredoka One', cursive;;font-size: 13px;
+    }
+    a{
+        color: chocolate;font-family: 'Satisfy', cursive;font-size: 15px;
+        text-decoration: none;
+    }
+    .medidasImg{
+        height: 40vh;
+    }
+    .logo{
+        position: absolute;
+        left: 0%;
+        height: 50px;
+    }
+    .logosRedesSociales{
+        height: 40px;
+    }
+    .copyR{
+        color: white;
+        font-family:'Franklin Gothic Medium';
+        font-size: 14px;
+        text-align: center;
+    }
+    .nombreProductos{
+        font-size: 25px;
+        line-height:30px;
+    }
+}
+@media (min-width: 517px) and (max-width:980px)
+{
+    .nav {
+        display: inline-block;
+        padding:10px;
+        margin-bottom:10px;
+    } 
+    .grid{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap:10px ;
+        grid-column-gap:10px ;
+        }
+    .imgPro{
+        width: 400px;
+        height: 400px;
+        border-radius: 30%;
+    }
+    h1{
+        font-family: 'Cairo', sans-serif;font-size:30px;text-align: center;line-height:80%;letter-spacing: 2px;padding:15px;
+    }
+    p{
+        color: chocolate;font-family: 'Fredoka One', cursive;;font-size: 13px;
+    }
+    a{
+        color: chocolate;font-family: 'Satisfy', cursive;font-size: 18px;
+        text-decoration: none;
+    }
+    .medidasImg{
+        height: 40vh;
+    }
+    .logo{
+        position: absolute;
+        left: 5%;
+        height: 60px;
+    }
+    .logosRedesSociales{
+        height: 45px;
+    }
+    .copyR{
+        color: white;
+        font-family:'Franklin Gothic Medium';
+        font-size: 14px;
+        text-align: center;
+    }
+}

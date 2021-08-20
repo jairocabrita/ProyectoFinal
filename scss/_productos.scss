@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap:40px ;
+    grid-column-gap:10px;
+    }
+.imgPro{
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+}
+.productos{
+    height: 450px; width: 500px;border-radius: 30px;
+}

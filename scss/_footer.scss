@@ -1,0 +1,21 @@
+.flexApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.redesFlex{
+    position: fixed;
+    right: 2%;
+    top: 83%;
+    z-index: 20;
+}
+footer{
+    background:chocolate;
+    padding: 5px;
+}
+.copyR{
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+}
